@@ -2,3 +2,4 @@ Hello Git World!
 master add
 dev add
 dev add no-ff
+del 'dev add no-ff', fix bug 404
