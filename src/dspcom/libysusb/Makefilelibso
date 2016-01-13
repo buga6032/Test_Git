@@ -1,0 +1,33 @@
+MAKE = make
+CFLAGS = -Wall -pipe -g -fPIC
+LIBS = 
+LDFLAGS = 
+INCLUDE = -I$(LIBUSB_DIR)/libusb -I$(LIBUSB_DIR) -I$(STAGING_DIR)
+AR = ar
+ARFLAGS = cr
+RM = -rm -f
+TARGETS = libysusb.so
+OBJS = usbsrc.o
+SUBDIRS = 
+
+all : subdirs $(TARGETS)
+
+subdirs : 
+	@for dir in $(SUBDIRS); \
+        do $(MAKE) -C $$dir || exit 1; \
+        done
+
+$(TARGETS) : $(LIBS) $(OBJS)
+	$(CC) $(CFLAGS) -shared $^ -o $@ $(LDFLAGS)
+
+%.o : %.c
+	$(CC) $(CFLAGS) -c $(INCLUDE) $< -o $@
+
+clean:
+	@for dir in $(SUBDIRS); \
+        do $(MAKE) -C $$dir clean || exit 1; \
+        done
+	$(RM) $(OBJS) $(TARGETS)
+
+.PHONY: all subdirs clean
+

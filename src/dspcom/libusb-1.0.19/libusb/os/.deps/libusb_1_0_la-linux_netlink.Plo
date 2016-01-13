@@ -1,0 +1,287 @@
+os/libusb_1_0_la-linux_netlink.lo: os/linux_netlink.c ../config.h \
+ libusb.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stdint.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdint.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/features.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/cdefs.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/wordsize.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/gnu/stubs.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/wchar.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/types.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/types.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/typesizes.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/time.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stddef.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/endian.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/endian.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/byteswap.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/select.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/select.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sigset.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/time.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/sysmacros.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/pthreadtypes.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/time.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/xlocale.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include-fixed/limits.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include-fixed/syslimits.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/limits.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/posix1_lim.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/local_lim.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/limits.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/posix2_lim.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/xopen_lim.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stdio_lim.h \
+ libusbi.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdlib.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/waitflags.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/waitstatus.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/alloca.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stdarg.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/poll.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/poll.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/poll.h \
+ libusb.h version.h version_nano.h os/threads_posix.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/pthread.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sched.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sched.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/setjmp.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/unistd.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/posix_opt.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/environments.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/confname.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/getopt.h \
+ os/poll_posix.h os/linux_usbfs.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/types.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/types.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/int-ll64.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/bitsperlong.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/bitsperlong.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/posix_types.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/stddef.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/posix_types.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/ctype.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/dirent.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/dirent.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/errno.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/errno.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/errno.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/errno.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/errno.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/errno-base.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/fcntl.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/fcntl.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/uio.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stat.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdio.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/libio.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/_G_config.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/wchar.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sys_errlist.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/string.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/socket.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/uio.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/socket.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sockaddr.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/socket.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/sockios.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/arpa/inet.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/netinet/in.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/in.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/netlink.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/socket.h \
+ /home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/filter.h
+
+../config.h:
+
+libusb.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stdint.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdint.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/features.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/cdefs.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/wordsize.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/gnu/stubs.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/wchar.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/types.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/types.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/typesizes.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/time.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stddef.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/endian.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/endian.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/byteswap.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/select.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/select.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sigset.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/time.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/sysmacros.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/pthreadtypes.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/time.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/xlocale.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include-fixed/limits.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include-fixed/syslimits.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/limits.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/posix1_lim.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/local_lim.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/limits.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/posix2_lim.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/xopen_lim.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stdio_lim.h:
+
+libusbi.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdlib.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/waitflags.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/waitstatus.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/alloca.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include/stdarg.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/poll.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/poll.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/poll.h:
+
+libusb.h:
+
+version.h:
+
+version_nano.h:
+
+os/threads_posix.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/pthread.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sched.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sched.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/setjmp.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/unistd.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/posix_opt.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/environments.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/confname.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/getopt.h:
+
+os/poll_posix.h:
+
+os/linux_usbfs.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/types.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/types.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/int-ll64.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/bitsperlong.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/bitsperlong.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/posix_types.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/stddef.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/posix_types.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/ctype.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/dirent.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/dirent.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/errno.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/errno.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/errno.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/errno.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/errno.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm-generic/errno-base.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/fcntl.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/fcntl.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/uio.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/stat.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/stdio.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/libio.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/_G_config.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/wchar.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sys_errlist.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/string.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/socket.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/sys/uio.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/socket.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/sockaddr.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/socket.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/asm/sockios.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/arpa/inet.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/netinet/in.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bits/in.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/netlink.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/socket.h:
+
+/home/git/compile-tool-freescale-imx6/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/tq-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/linux/filter.h:
